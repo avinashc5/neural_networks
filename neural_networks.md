@@ -33,5 +33,5 @@ These values can be any real number. But we want the neuron to just hold values 
 	<li><b>Sigmoid function:</b></li>
 	$$f(x) = \frac{1}{1 + e^{-x}}$$
 
-![alt text](sigmoid.png =100x100)
+![alt text](sigmoid.png=100x100)
 </ul>
