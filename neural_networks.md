@@ -2,7 +2,7 @@ I have understood how the model predicts the answer to whatever we feed it.
 
 There is a neural network.
 
-![Neural network example](neural_network_example.png)
+<img src="neural_network_example.png" height=500>
 
 A neural network has layers. These layers contain neurons (the blue circles). A neuron from one layer is connected to its previous layer's neurons by wires (the white lines shown in the figure are the wires). So one neuron from the last layer will be connected to all the neurons in its previous layer and the second last neuron to its previous layer's neurons and so on. But the first layer does not have a previous layer. This first layer is called the <b>input layer</b>.
 
@@ -17,14 +17,16 @@ So the input to the neural network has been worked out
 Right now, I don't know how a neural network is trained. So I'm not writing anything about it. But once it is trained, I know how it predicts.
 
 First, there are neurons. What for? They hold a value. Constant? No. The value in the neurons depends on the input.
-![An image from MNIST dataset with "3" written on it](MINST_3_image_with_pixel_values.png)
+
+<img src="MINST_3_image_with_pixel_values.png" height=400>
+
 The image shown above shows the value of each pixel ranging from 0 to 1 denoting how lit the pixel is. The image is of size 28 $\times$ 28. So it has 784 pixels. So we make the input layer of size 784 neurons. Now, each of the neuron in the input layer will have the value of one of the pixel from the image. This is how the neurons in input layer get its values.
 
 Next there are those wires which connect the next layer's neurons to this input layer. This connection should do something right? What this connection does is it helps the neurons in the next layer get its values.
 
 In the neural network shown, there are 4 layers. 1st layer is the input layer. 2nd layer's neurons get their values from the neurons of the first layer. How? Each wire again has a value. Constant? Once the training has finished, yes.
 
-![A neuron connected to the neurons in its previous layer](neuron_connection.png)
+<img src="neuron_connection.png" alt="A neuron connected to the neurons in its previous layer" height=500>
 
 Take one neuron from the second layer connected to all the neurons in the input layer through the wire which have some value. Let these values be denoted by $w_1, w_2, \dots, w_n$. The values are known as weights. We multiply each neuron value from the input layer to its respective weight and then add the result. The value we get is the value of the neuron in the 2nd layer.
 
@@ -33,5 +35,5 @@ These values can be any real number. But we want the neuron to just hold values 
 	<li><b>Sigmoid function:</b></li>
 	$$f(x) = \frac{1}{1 + e^{-x}}$$
 
-![alt text](sigmoid.png=100x100)
+<img src="sigmoid.png" alt="Sigmoid function plot" height=300>
 </ul>
