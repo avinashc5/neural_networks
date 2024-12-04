@@ -1,6 +1,7 @@
 I have understood how the model predicts the answer to whatever we feed it.
 
 There is a neural network.
+
 ![Neural network example](neural_network_example.png)
 
 A neural network has layers. These layers contain neurons (the blue circles). A neuron from one layer is connected to its previous layer's neurons by wires (the white lines shown in the figure are the wires). So one neuron from the last layer will be connected to all the neurons in its previous layer and the second last neuron to its previous layer's neurons and so on. But the first layer does not have a previous layer. This first layer is called the <b>input layer</b>.
@@ -31,5 +32,6 @@ These values can be any real number. But we want the neuron to just hold values 
 <ul>
 	<li><b>Sigmoid function:</b></li>
 	$$f(x) = \frac{1}{1 + e^{-x}}$$
-	![alt text](sigmoid.png)
+
+![alt text](sigmoid.png =100x100)
 </ul>
