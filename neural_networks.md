@@ -33,7 +33,7 @@ Take one neuron from the second layer connected to all the neurons in the input 
 These values can be any real number. But we want the neuron to just hold values from 0 to 1. What do we do now? <b>Activation function</b> to the rescue. Activation functions takes in a real number and outputs a value from 0 to 1. Types of activation functions:
 <ul>
 	<li><b>Sigmoid function:</b></li>
-	$$f(x) = \frac{1}{1 + e^{-x}}$$
+	$$f(x) = \frac{1}{1 + e^{-x}}$$<br>
 
 <img src="sigmoid.png" alt="Sigmoid function plot" height=300>
 </ul>
