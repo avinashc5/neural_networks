@@ -37,7 +37,7 @@ These values can be any real number. But we want the neuron to just hold values 
 
 <img src="sigmoid.png" alt="Sigmoid function plot" height=300>
 	<li><b>Tanh Activation function:</b></li>
-	$$f(x) = \tanh(x) = \frac{2}{1 + e^{-2x}} - 1$$
+	$$f(x) = \tanh(x) = \frac{2}{1 + e^{-2x}} - 1$$<br>
 	
 <img src="tanh.png" alt="tanh activation function plot" height=300>
 </ul>
